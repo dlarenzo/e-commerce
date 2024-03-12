@@ -421,6 +421,7 @@ export interface User {
   lockUntil?: string | null
   password: string | null
 }
+
 export interface Redirect {
   id: string
   from: string
